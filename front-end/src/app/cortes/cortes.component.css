@@ -1,0 +1,176 @@
+body {
+    background-color: #d9d9d9;
+    font-family: "Abel", sans-serif;
+    background-image: url("/assets/img/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #banner {
+    margin: 0 auto;
+    margin-right: 20px;
+    float: left;
+    width: 50%;
+    margin-top: 90px;
+    border-radius: 0px 25px 25px 0px;
+  }
+  
+  .tituloMain {
+    display: inline-block;
+    margin-top: 0.7em;
+    text-align: center;
+    font-size: 110px;
+    font-family: "Allison", cursive;
+    margin-left: 20%;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+  }
+  
+  .textoSobreNos {
+    color: white;
+    font-weight: bold;
+    vertical-align: top;
+    font-size: 25px;
+    margin-top: 20px;
+    text-shadow: #000 2px 3px 2px;
+  }
+  
+  .beneficios {
+    display: inline-block;
+    border-radius: 60px 60px 60px 60px;
+    margin-left: 250px;
+    height: 40em;
+    width: 50em;
+    box-shadow: 10px 10px 5px black;
+    
+  }
+  
+  .beneficios ul {
+    margin-top: 90px;
+  }
+  
+  .beneficios li {
+    font-size: 25px;
+    margin: 80px 0 0 250px;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+    display: block;
+  }
+  
+  
+  
+  #animation {
+    
+    background: rgba(41, 27, 0, 0.3);
+  }
+  
+  #animation:hover {
+    transition: 1.5s;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .beneficios li:hover {
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #tituloLocalizacao {
+    display: block;
+    margin-top: 50px;
+    font-size: 110px;
+    font-family: "Allison", cursive;
+    text-align: center;
+    color: white;
+    text-shadow: #000 2px 3px 2px;
+  }
+  
+  #endereco {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    text-shadow: #000 2px 3px 2px;
+    font-weight: bold;
+  }
+  
+  .mapa {
+    padding: 2em 0;
+    /* margin-left: 650px; */
+    margin-left: 25%;
+    margin-right: auto 0 ;
+  }
+  
+  #tituloCortes{
+      display: block;
+      margin-top: 30px;
+      font-size: 110px;
+      font-family: "Allison", cursive;
+      text-align: center;
+      color: white;
+      text-shadow: #000 2px 3px 2px;
+  }
+  
+  .textoCortes{
+      color: white;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 30px;
+      text-shadow: #000 2px 3px 2px;
+      font-weight: bold;
+  }
+  .produtos li{
+  
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      height: 450px;
+      vertical-align: top;
+      margin: 0 1.5%;
+      padding: 30px 20px;
+      box-sizing: border-box;
+      border: 2px solid black;
+      border-radius: 20px;
+      background-color: white;
+      font-size: 25px;
+      
+  }
+  
+  .produtos li:hover h2{    
+      font-size: 35px;
+  }
+  
+  .produtos li:hover{
+      border: 7px solid green;
+      font-weight: bold;
+  
+  }
+  
+  .produtos li:active{
+      border-color: green;
+  
+  }
+  
+  
+  .produtos h2{
+      font-size: 30px;
+      font-weight: bold;
+  
+  }
+  
+  .precoProduto{
+      font-size: 22px;
+      font-weight: bold;
+      margin:50px 0 0;
+      text-decoration: underline;
+  }
+  
+  
+  .descricaoProduto{
+      font-style: italic;
+      font-size: 18px;
+  }
+
+  
