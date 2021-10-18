@@ -14,6 +14,7 @@ Nome: Gustavo Vocatore:
 E-mail: gustavovocatore.3355@aluno.saojudas.br
 RA: 821141894
 
-Nome: Thiago Dias Dutra de Oliveira
-E-mail: thiagooliveira.7357@aluno.saojudas.br
-RA: 819157357
+Everson Dorigon de Sousa - Front-End 
+E-mail: eversonsousa.8796@aluno.saojudas.br
+201318796
+
