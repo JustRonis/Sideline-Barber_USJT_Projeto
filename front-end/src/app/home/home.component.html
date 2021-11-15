@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbearia</title>
+    <title>SideLine Barber</title>
   </head>
   <body>
     <main>
-      <img id="banner" src="/assets/img/barbearia.jpeg" />
-
+      
       <section class="sobreNos">
         <h2 class="tituloMain">Sobre nós</h2>
         <p class="textoSobreNos">
@@ -21,29 +20,20 @@
 
         <div class="beneficios" id="animation">
           <ul>
-            <li>Atendimento diferenciado</li>
-            <li>Espaço aconchegante</li>
-            <li>Limpeza e organização</li>
-            <li>Cervejas e Choops</li>
-            <li>Ar condicionado</li>
+            <li>Atendimento em domicilio</li>
+            <li>Segurança</li>
+            <li>Levamos tudo que é necessário</li>
+            <li>Profissionais treinados</li>
+            <li>Atendimento exclusivo</li>
+            
+            
           </ul>
         </div>
       </section>
-
-      <section class="localizacao">
-        <h2 id="tituloLocalizacao">Localização</h2>
-        <p id="endereco">Rua da barbearia, 3092 - Vila Barbeiro, SP.</p>
-        <div class="mapa">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9774826851344!2d-46.65079978446594!3d-23.569252184679065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59befc700ba9%3A0xf3187e6dcfb53bc!2sAlameda%20Santos%2C%20466%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001301-000!5e0!3m2!1spt-BR!2sbr!4v1630594635645!5m2!1spt-BR!2sbr"
-            width="1280"
-            height="500"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-      </div>
-      </section>
+      <div class="conhecaCortes">
+        <h2 id="conhecaTitulo">Preparado para uma nova experiência?</h2>
+        <button id="conhecaLink"[routerLink]="['/cortes']">Conheça nossos serviços</button>
+      </div>      
     </main>
   </body>
-</html>
+</html>  
