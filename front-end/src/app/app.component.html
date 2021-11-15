@@ -10,9 +10,9 @@ rel="stylesheet"
 <html lang="pt">
   <body>
     <header class="menu" *ngIf="validarUrl()">
-      <h1 id="navTitle">Barbearia</h1>
+      <h1 id="navTitle">Sideline Barber</h1>
       <nav>
-        <ul>
+        <ul class="menuHover">
           <li><a [routerLink]="['/home']">Home</a></li>
           <li><a [routerLink]="['/cortes']">Cortes</a></li>
           <li><a [routerLink]="['/contato']">Contato</a></li>
