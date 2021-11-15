@@ -1,18 +1,18 @@
 {
-  "name": "back-end",
+  "name": "node-api-crud",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.13"
+    "dev": "nodemon"
   },
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "~4.17.1",
+    "mongoose": "~6.0.12",
+    "request": "~2.88.2",
+    "body-parser": "~1.19.0"
+
+  },
+  "author": "Lucas Matos",
+  "license": "ISC"
 }
