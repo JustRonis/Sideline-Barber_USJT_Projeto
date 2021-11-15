@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CortesComponent implements OnInit {
 
+  tipoCorte: string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  tipoCorteCabelo() {
+    this.tipoCorte = "cabelo";
+  }
+
+  tipoCorteBarba() {
+    this.tipoCorte = "barba";
+  }
+
+  tipoCorteCabeloBarba() {
+    this.tipoCorte = "cabelo + barba";
   }
 
 }

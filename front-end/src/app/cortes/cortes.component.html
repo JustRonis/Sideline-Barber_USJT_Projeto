@@ -3,7 +3,7 @@
     <h2 id="tituloCortes">Cortes</h2>
     <p class="textoCortes">Selecione um serviço e agende seu horário</p>
     <ul class="produtos">
-      <li>
+      <li data-toggle="modal" data-target="#compra" (click)="tipoCorteCabelo()">
         <h2>Cabelo</h2>
         <img src="/assets/img/cabelo.jpg" />
         <p class="descricaoProduto">
@@ -12,7 +12,7 @@
         </p>
         <p class="precoProduto" id="cabelo">R$35,00</p>
       </li>
-      <li>
+      <li data-toggle="modal" data-target="#compra" (click)="tipoCorteBarba()">
         <h2>Barba</h2>
         <img src="/assets/img/barba.jpg" />
         <p class="descricaoProduto">
@@ -20,7 +20,7 @@
         </p>
         <p class="precoProduto">R$25,00</p>
       </li>
-      <li>
+      <li data-toggle="modal" data-target="#compra" (click)="tipoCorteCabeloBarba()">
         <h2>Cabelo + Barba</h2>
         <img src="/assets/img/cabelo+barba.jpg" />
         <p class="descricaoProduto">
@@ -30,3 +30,8 @@
       </li>
     </ul>
   </section>
+
+<app-modal-compra
+[id]="'compra'"
+[tipoCorte]="tipoCorte">
+</app-modal-compra>

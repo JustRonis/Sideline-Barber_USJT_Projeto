@@ -20,11 +20,11 @@
 
         <div class="beneficios" id="animation">
           <ul>
-            <li>Atendimento em domicilio</li>
-            <li>Segurança</li>
-            <li>Levamos tudo que é necessário</li>
-            <li>Profissionais treinados</li>
-            <li>Atendimento exclusivo</li>
+            <li data-toggle="modal" data-target="#atendimento">Atendimento em domicilio</li>
+            <li data-toggle="modal" data-target="#seguranca">Segurança</li>
+            <li data-toggle="modal" data-target="#necessario">Levamos tudo que é necessário</li>
+            <li data-toggle="modal" data-target="#profissional">Profissionais treinados</li>
+            <li data-toggle="modal" data-target="#exclusivo">Atendimento exclusivo</li>
             
             
           </ul>
@@ -37,3 +37,23 @@
     </main>
   </body>
 </html>  
+
+<app-modal-atendimento
+[id]="'atendimento'">
+</app-modal-atendimento>
+
+<app-modal-seguranca
+[id]="'seguranca'">
+</app-modal-seguranca>
+
+<app-modal-necessario
+[id]="'necessario'">
+</app-modal-necessario>
+
+<app-modal-profissional
+[id]="'profissional'">
+</app-modal-profissional>
+
+<app-modal-exclusivo
+[id]="'exclusivo'">
+</app-modal-exclusivo>
