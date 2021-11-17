@@ -1,20 +1,27 @@
-Nome: Ronaldo Luiz Pinto Filho
+Nome:   Ronaldo Luiz Pinto Filho
 E-mail: ronaldofilho.9322@aluno.saojudas.br
-RA: 820269322
+RA:     820269322
 
-Nome: Lucas Wagner:
+Nome:   Lucas Wagner:
 E-mail: lucasfroes.8079@aluno.saojudas.br
-RA: 819148079
+RA:     819148079
 
-Nome: Gabriel dias de Souza
+Nome:   Gabriel dias de Souza
 E-mail: gabrielsouza.9463@aluno.saojudas.br
-RA: 819159463
+RA:     819159463
 
-Nome: Gustavo Vocatore:
+Nome:   Gustavo Vocatore:
 E-mail: gustavovocatore.3355@aluno.saojudas.br
-RA: 821141894
+RA:     821141894
 
-Everson Dorigon de Sousa - Front-End 
+Nome:   Thiago Dias Dutra de Oliveira:
+E-mail: thiagooliveira.7357@aluno.saojudas.br
+RA:     819157357
+
+Nome:   Lucas Matos:
+E-mail: lucassilva.5868@aluno.saojudas.br
+RA:     820145868
+
+Nome:   Everson Dorigon de Sousa - Front-End 
 E-mail: eversonsousa.8796@aluno.saojudas.br
-201318796
-
+RA:     201318796

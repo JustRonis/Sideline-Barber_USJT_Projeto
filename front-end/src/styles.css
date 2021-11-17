@@ -1,4 +1,4 @@
-.menu{
+/* .menu{
     position: fixed;
     top: 0;
     left: 0;
@@ -6,9 +6,6 @@
     height: 70px;
     width: 100%;
     color: white;
-    
-    
-
 }
 
 #navTitle{
@@ -24,6 +21,7 @@
     animation-duration: 4s;
     transition: background 1s;
 }
+
 @keyframes hover {
     from{color: #8A4623}
     to{color:white;}
@@ -47,22 +45,14 @@ nav a{
     text-transform: uppercase;
     color: white;
 
-}
-
-nav li:hover{
-    color:  #000000;
-    font-weight: bold;
-    font-size: 25px;
-    transition: 0.3s;
-
-}
+} */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -83,7 +73,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -104,4 +94,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}  */

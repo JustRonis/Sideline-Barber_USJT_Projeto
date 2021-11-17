@@ -1,37 +1,133 @@
-
-<section class="cortes">
-    <h2 id="tituloCortes">Cortes</h2>
-    <p class="textoCortes">Selecione um serviço e agende seu horário</p>
-    <ul class="produtos">
-      <li data-toggle="modal" data-target="#compra" (click)="tipoCorteCabelo()">
-        <h2>Cabelo</h2>
-        <img src="/assets/img/cabelo.jpg" />
-        <p class="descricaoProduto">
-          Dispomos de profissionais capacitados para atender seu estilo.
-          Seja um corte na máquinha, ou tesoura
-        </p>
-        <p class="precoProduto" id="cabelo">R$35,00</p>
-      </li>
-      <li data-toggle="modal" data-target="#compra" (click)="tipoCorteBarba()">
-        <h2>Barba</h2>
-        <img src="/assets/img/barba.jpg" />
-        <p class="descricaoProduto">
-          Corte e desenho profissional de barba
-        </p>
-        <p class="precoProduto">R$25,00</p>
-      </li>
-      <li data-toggle="modal" data-target="#compra" (click)="tipoCorteCabeloBarba()">
-        <h2>Cabelo + Barba</h2>
-        <img src="/assets/img/cabelo+barba.jpg" />
-        <p class="descricaoProduto">
-          Pacote completo: Cabelo + barba num preço promocional.
-        </p>
-        <p class="precoProduto">R$50,00</p>
-      </li>
-    </ul>
-  </section>
-
-<app-modal-compra
-[id]="'compra'"
-[tipoCorte]="tipoCorte">
-</app-modal-compra>
+<body>  
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check" viewBox="0 0 16 16">
+      <title>Check</title>
+      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+    </symbol>
+  </svg>
+  
+  <div class="container">
+    <header> 
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Preços dos Cortes</h1>
+        <p class="fs-5 text-muted">Selecione um serviço e agende seu horário.</p>
+      </div>
+    </header>
+  
+    <main>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Cabelo</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">R$65<small class="text-muted fw-light">,00</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Corte na máquina, ou tesoura.</li>
+                <li>Cabelos de todos os tipos.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary"
+               data-toggle="modal" data-target="#compra" 
+               (click)="tipoCorteCabelo()">Comprar
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Barba</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">R$50<small class="text-muted fw-light">,00</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Pézinho do cabelo.</li>
+                <li>Barba.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary"
+              data-toggle="modal" data-target="#compra" (click)="tipoCorteBarba()">
+                Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Cabelo + Barba</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">R$100<small class="text-muted fw-light">,00</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Corte na máquina, ou tesoura.</li>
+                <li>Cabelos de todos os tipos.</li>
+                <li>Barba.</li>
+                <li>Progressiva.</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary"
+              data-toggle="modal" data-target="#compra" (click)="tipoCorteCabeloBarba()">
+                Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <h2 class="display-6 text-center mb-4">Compare os  Serviços</h2>
+  
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;">Cabelo</th>
+              <th style="width: 22%;">Barba</th>
+              <th style="width: 22%;">Cabelo + Barba</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Corte na Máquininha</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Corte na Tesoura</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Pézinho do cabelo</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Barba</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Progressiva</th>
+              <td></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Lavagem</th>
+              <td></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <app-modal-compra
+    [id]="'compra'"
+    [tipoCorte]="tipoCorte">
+  </app-modal-compra>
+</body>

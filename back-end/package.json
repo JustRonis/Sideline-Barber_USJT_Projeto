@@ -11,7 +11,6 @@
     "mongoose": "~6.0.12",
     "request": "~2.88.2",
     "body-parser": "~1.19.0"
-
   },
   "author": "Lucas Matos",
   "license": "ISC"
