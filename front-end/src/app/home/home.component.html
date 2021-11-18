@@ -1,41 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SideLine Barber</title>
-  </head>
-  <body>
-    <main>
-      <section class="sobreNos">
-        <h2 class="tituloMain">Sobre nós</h2>
-        <p class="textoSobreNos">
-          Oferecemos profissionais experientes e antenados às mudanças no mundo
-          da moda. O atendimento possui padrão de excelência e agilidade,
-          garantindo qualidade e satisfação dos nossos clientes.<br />
-          <br />
-        </p>
+<div class="imagem">
+  <section class="sobreNos">
+          <h2 class="text-center">Sobre nós</h2>
+          <p class="text-center">
+            Oferecemos profissionais experientes e antenados às mudanças no mundo
+            da moda. O atendimento possui padrão de excelência e agilidade,
+            garantindo qualidade e satisfação dos nossos clientes.<br />
+            <br />
+          </p>
 
-        <div class="beneficios" id="animation">
-          <ul>
-            <li data-toggle="modal" data-target="#atendimento">Atendimento em domicilio</li>
-            <li data-toggle="modal" data-target="#seguranca">Segurança</li>
-            <li data-toggle="modal" data-target="#necessario">Levamos tudo que é necessário</li>
-            <li data-toggle="modal" data-target="#profissional">Profissionais treinados</li>
-            <li data-toggle="modal" data-target="#exclusivo">Atendimento exclusivo</li>
-            
-            
-          </ul>
-        </div>
-      </section>
-      <div class="conhecaCortes">
-        <h2 id="conhecaTitulo">Preparado para uma nova experiência?</h2>
-        <button id="conhecaLink"[routerLink]="['/cortes']">Conheça nossos serviços</button>
-      </div>      
-    </main>
-  </body>
-</html>  
+          <div class="beneficios" id="animation">
+            <ul class="list-group">
+              <li class="text-center" data-toggle="modal" data-target="#atendimento">Atendimento em domicilio</li>
+              <li class="text-center" data-toggle="modal" data-target="#seguranca">Segurança</li>
+              <li class="text-center" data-toggle="modal" data-target="#necessario">Levamos tudo que é necessário</li>
+              <li class="text-center" data-toggle="modal" data-target="#profissional">Profissionais treinados</li>
+              <li class="text-center" data-toggle="modal" data-target="#exclusivo">Atendimento exclusivo</li>
+            </ul>
+          </div>
+        </section>
+        <div class="text-center">
+          <br>
+          <br>
+          <h3 class="text-center">Preparado para uma nova experiência?</h3>
+          <button type="button" class="btn-lg" [routerLink]="['/cortes']">Conheça nossos serviços</button>
+        </div>      
+</div> 
 
 <app-modal-atendimento
 [id]="'atendimento'">

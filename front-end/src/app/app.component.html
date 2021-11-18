@@ -1,17 +1,10 @@
 <!DOCTYPE html>
-<link
-href="https://fonts.googleapis.com/css2?family=Allison&display=swap"
-rel="stylesheet"
-/>
-<link
-href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
-rel="stylesheet"
-/>
 <html lang="pt">
   <body>
     <!-- Navbar Ini -->
     <header *ngIf="validarUrl()">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
         <!-- <a class="navbar-brand" href="#">Sideline Barber</a> -->
         <div class="pr-5">
           <img src="../assets/img/Logo_branco_s.png" href="#" class="logo_nav" alt="Logo_branco">
@@ -25,10 +18,12 @@ rel="stylesheet"
             <li><a [routerLink]="['/cortes']" class="nav-item nav-link active"><span data-hover="Cortes">Cortes</span></a></li>
             <li><a [routerLink]="['/contato']" class="nav-item nav-link active"><span data-hover="Contato">Contato</span></a></li>
           </div>
-        </div>       
+        </div>
+      </div>       
       </nav>    
     </header>
     <!-- Navbar Fim -->
+    <div style="padding: 30px;"></div> 
 
     <router-outlet></router-outlet>
 
