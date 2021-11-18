@@ -1,4 +1,41 @@
-.imagem {
+.banner_carousel{
+  width: 100%; 
+  height: auto;
+}
+
+.logo_nav[_ngcontent-wbx-c17] {
+	width: 220px;
+	height: 100%;
+}
+
+.cl-effect-5[_ngcontent-wbx-c17]   a[_ngcontent-wbx-c17] {
+	overflow: hidden;
+	padding: 0 4px;
+	height: 28px;
+}
+
+.cl-effect-5[_ngcontent-wbx-c17]   a[_ngcontent-wbx-c17]   span[_ngcontent-wbx-c17] {
+	position: relative;
+	display: inline-block;
+	transition: transform 0.3s;
+}
+
+.cl-effect-5[_ngcontent-wbx-c17]   a[_ngcontent-wbx-c17]   span[_ngcontent-wbx-c17]::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 700;
+	transform: translate3d(0,0,0);
+}
+
+.cl-effect-5[_ngcontent-wbx-c17]   a[_ngcontent-wbx-c17]:hover   span[_ngcontent-wbx-c17], .cl-effect-5[_ngcontent-wbx-c17]   a[_ngcontent-wbx-c17]:focus   span[_ngcontent-wbx-c17] {
+	transform: translateY(-100%);
+}
+.logo_login[_ngcontent-wbx-c16]{
+    width: 100%;
+	height: auto;
+}
+.imagem[_ngcontent-wbx-c25] {
     background-image: url("/assets/img/back.jpg");
     width: 100%;
     height: 728px;
@@ -6,31 +43,31 @@
     background-size: 100% 100%;
 }
   
-.beneficios {
+.beneficios[_ngcontent-wbx-c25] {
   border-radius: 60px 60px 60px 60px;
   box-shadow: 10px 10px 5px black;
 }
-
-.beneficios ul {
+  
+.beneficios[_ngcontent-wbx-c25]   ul[_ngcontent-wbx-c25] {
   margin-top: 90px;
 }
-
-.beneficios li {
+  
+.beneficios[_ngcontent-wbx-c25]   li[_ngcontent-wbx-c25] {
   font-size: 25px;
   color: white;
   text-shadow: #000 2px 3px 2px;
 }
-
-#animation {
+  
+#animation[_ngcontent-wbx-c25] {
   background: rgba(41, 27, 0, 0.3);
 }
-
-#animation:hover {
+  
+#animation[_ngcontent-wbx-c25]:hover {
   transition: 1.5s;
   background-color: rgba(0, 0, 0, 0.1);
 }
-
-.beneficios li:hover {
+  
+.beneficios[_ngcontent-wbx-c25]   li[_ngcontent-wbx-c25]:hover {
   font-weight: bold;
   font-size: 30px;
   cursor: pointer;
