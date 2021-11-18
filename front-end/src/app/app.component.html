@@ -13,15 +13,21 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav cl-effect-5">
-            <li><a [routerLink]="['/home']" class="nav-item nav-link active"><span data-hover="Home">Home</span></a></li>
-            <li><a [routerLink]="['/cortes']" class="nav-item nav-link active"><span data-hover="Cortes">Cortes</span></a></li>
-            <li><a [routerLink]="['/contato']" class="nav-item nav-link active"><span data-hover="Contato">Contato</span></a></li>
+          <div class="navbar-nav cl-effect-5 navbar-brand">
+            <li><a [routerLink]="['/home']" class="nav-item nav-link"><span data-hover="Home">Home</span></a></li>
+            <li><a [routerLink]="['/cortes']" class="nav-item nav-link"><span data-hover="Cortes">Cortes</span></a></li>
+            <li><a [routerLink]="['/contato']" class="nav-item nav-link"><span data-hover="Contato">Contato</span></a></li>
+            <li><a class="nav-item nav-link" href="" data-toggle="modal" data-target="#seguranca"><span data-hover="Login">Login</span></a></li>
+            <!-- data-toggle="modal" data-target="#compra" -->
+            <!-- <li><a [routerLink]="['/login']" class="nav-item nav-link"><span data-hover="Login">Login</span></a></li> -->
           </div>
         </div>
       </div>       
       </nav>    
     </header>
+    <app-modal-seguranca
+    [id]="'seguranca'">
+    </app-modal-seguranca>
     <!-- Navbar Fim -->
     <div style="padding: 30px;"></div> 
 
