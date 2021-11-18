@@ -1,6 +1,10 @@
 body{
     background-color: #f8f8f8;
 }
+
+.backImg{
+    background: radial-gradient(circle, rgba(63,94,251,1) 29%, rgba(0,255,222,1) 95%);;
+}
 .text-center {
     text-align: center!important;
 }
@@ -9,7 +13,7 @@ body{
     height: 100%;
 }
 .col-md-3{
-    background: #007bff;
+    background: #E8E8E8;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -41,4 +45,5 @@ body{
 .contact-form button:focus{
     box-shadow:none;
 }
+
 
