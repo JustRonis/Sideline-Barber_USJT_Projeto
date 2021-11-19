@@ -1,32 +1,33 @@
 <div class="modal fade" [id]="id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Segurança</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="row">
-                        <div class="col">
-                            <label><b>Permissões</b></label>
-                            <select class="custom-select custom-select-md">
-                                <option selected>Selecione</option>
-                                <option value="1">Administrador</option>
-                                <option value="2">Recepcionista</option>
-                                <option value="3">Dentista</option>
-                            </select>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-success">Salvar</button>
-            </div>
+        <div class="modal-content rounded-5 shadow">
+          <div class="modal-header pl-5 pr-5 pt-5 pb-5 border-bottom-0">
+            <!-- <h5 class="modal-title">Modal title</h5> -->
+            <h2 class="fw-bold mb-0">Login</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>           
+          </div>
+          <div class="pl-5 pr-5">
+            <img src="../assets/img/Logo_preto.png" href="#" class="logo_login" alt="Logo_preto">
+          </div>
+          <div class="modal-body pl-5 pr-5 pb-5 pt-5">
+            <form class="">               
+              <div class="form-floating mb-3">
+                <label for="floatingInput">Email</label>
+                <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com">             
+              </div>
+              <div class="form-floating mb-3">
+                <label for="floatingPassword">Senha</label>
+                <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Digite a sua senha">                
+              </div>
+              <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Entrar</button>
+              <small class="text-muted">Caso não lembre a senha, clique em </small>
+              <a href="#" class="">Redefinir Senha</a>
+              <hr class="my-4">
+              
+              <small class="text-muted">Não tem conta ?</small>
+              <a href="#" class="pl-1">Cadastre-se</a>
+            </form>
+          </div>
         </div>
-    </div>
 </div>
