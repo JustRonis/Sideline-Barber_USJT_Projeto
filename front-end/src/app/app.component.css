@@ -2,6 +2,10 @@
 	width: 220px;
 	height: 100%;
 }
+.black_box{
+	background-color: black;
+	opacity: 30%;
+}
 
 /* Effect 5: same word slide in */
 .cl-effect-5 a {
