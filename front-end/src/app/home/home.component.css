@@ -1,6 +1,7 @@
 .banner_carousel{
   width: 100%; 
   height: auto;
+  max-height: 800px;
 }
 
 .text_blue{
