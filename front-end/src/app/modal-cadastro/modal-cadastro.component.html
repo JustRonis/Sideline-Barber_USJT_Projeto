@@ -1,0 +1,40 @@
+<div class="modal fade" [id]="id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-5 shadow">
+          <div class="modal-header pl-5 pr-5 pt-5 pb-2 border-bottom-0">
+            <!-- <h5 class="modal-title">Modal title</h5> -->
+            <h2 class="fw-bold mb-0">Cadastro de usuário</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>    
+
+          </div>
+          <div class="modal-body pl-5 pr-5 pb-5 pt-2">
+            <form class="">               
+              <div class="form-floating mb-3">
+                <label for="floatingInput">Nome completo</label>
+                <input type="text" class="form-control rounded-4" id="floatingInput" placeholder="Digite seu nome">             
+              </div>
+              <div class="form-floating mb-3">
+                <label for="floatingPassword">Senha</label>
+                <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Digite a sua senha">                
+              </div>
+              <div class="form-floating mb-3">
+                <label for="floatingInput">CEP</label>
+                <input type="number" class="form-control rounded-4" id="floatingInput" placeholder="00000-000">             
+              </div>
+              <div class="form-floating mb-3">
+                <label for="floatingInput">Endereço</label>
+                <input type="text" class="form-control rounded-4" id="floatingInput" placeholder="00000-000">             
+              </div>
+              <div class="form-group ">
+                <label for="inputCEP">CEP</label>
+                <input type="text" class="form-control" id="inputCEP">
+              </div>
+
+              <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Cadastrar</button>
+            </form>
+            
+          </div>
+        </div>
+</div>
