@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { AdministradorComponent } from './administrador/administrador.component';
 import { ContatoComponent } from './contato/contato.component';
 import { CortesComponent } from './cortes/cortes.component';
 import { HomeComponent } from './home/home.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
     path: 'contato',
     component: ContatoComponent
   },
+  {
+    path: 'adm',
+    component: AdministradorComponent
+  }
 ];
 
 @NgModule({
