@@ -30,7 +30,8 @@ import { ModalSegurancaComponent } from './modal-seguranca/modal-seguranca.compo
     ModalExclusivoComponent,
     ModalProfissionalComponent,
     ModalCadastroComponent,
-    ModalRedefinirSenhaComponent
+    ModalRedefinirSenhaComponent,
+  
   ],
   imports: [
     BrowserModule,
