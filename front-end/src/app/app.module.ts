@@ -8,11 +8,14 @@ import { CortesComponent } from './cortes/cortes.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ModalAtendimentoComponent } from './modal-atendimento/modal-atendimento.component';
+import { ModalCadastroComponent } from './modal-cadastro/modal-cadastro.component';
 import { ModalCompraComponent } from './modal-compra/modal-compra.component';
 import { ModalExclusivoComponent } from './modal-exclusivo/modal-exclusivo.component';
 import { ModalNecessarioComponent } from './modal-necessario/modal-necessario.component';
 import { ModalProfissionalComponent } from './modal-profissional/modal-profissional.component';
+import { ModalRedefinirSenhaComponent } from './modal-redefinir-senha/modal-redefinir-senha.component';
 import { ModalSegurancaComponent } from './modal-seguranca/modal-seguranca.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ModalSegurancaComponent } from './modal-seguranca/modal-seguranca.compo
     ModalNecessarioComponent,
     ModalCompraComponent,
     ModalExclusivoComponent,
-    ModalProfissionalComponent
+    ModalProfissionalComponent,
+    ModalCadastroComponent,
+    ModalRedefinirSenhaComponent,
+  
   ],
   imports: [
     BrowserModule,
