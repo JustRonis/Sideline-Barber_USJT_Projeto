@@ -17,7 +17,7 @@
             <li><a [routerLink]="['/home']" class="nav-item nav-link"><span data-hover="Home">Home</span></a></li>
             <li><a [routerLink]="['/cortes']" class="nav-item nav-link"><span data-hover="Cortes">Cortes</span></a></li>
             <li><a [routerLink]="['/contato']" class="nav-item nav-link"><span data-hover="Contato">Contato</span></a></li>
-            <li><a class="nav-item nav-link" href="" data-toggle="modal" data-target="#seguranca"><span data-hover="Login">Login</span></a></li>
+            <li><a class="nav-item nav-link" href="" data-toggle="modal" data-target="#login"><span data-hover="Login">Login</span></a></li>
             <!-- data-toggle="modal" data-target="#compra" -->
             <!-- <li><a [routerLink]="['/login']" class="nav-item nav-link"><span data-hover="Login">Login</span></a></li> -->
           </div>
@@ -25,9 +25,7 @@
       </div>       
       </nav>    
     </header>
-    <app-modal-seguranca
-    [id]="'seguranca'">
-    </app-modal-seguranca>
+
     <!-- Navbar Fim -->
     <div style="padding: 30px;"></div> 
 
@@ -60,3 +58,7 @@
     <!-- Rodape Fim -->
   </body>
 </html>
+
+<app-modal-login
+[id]="'login'">
+</app-modal-login>
