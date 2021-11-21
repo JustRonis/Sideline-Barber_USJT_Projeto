@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CortesComponent implements OnInit {
 
   tipoCorte: string = "";
+  valorCorte: string = "";
 
   constructor() { }
 
@@ -15,15 +16,27 @@ export class CortesComponent implements OnInit {
   }
 
   tipoCorteCabelo() {
-    this.tipoCorte = "cabelo";
+    this.tipoCorte = "Cabelo";
+  }
+
+  valorCorteCabelo(){
+    this.valorCorte = "R$65,00";
   }
 
   tipoCorteBarba() {
-    this.tipoCorte = "barba";
+    this.tipoCorte = "Barba";
+  }
+  valorCorteBarba(){
+    this.valorCorte = "R$50,00";
   }
 
   tipoCorteCabeloBarba() {
-    this.tipoCorte = "cabelo + barba";
+    this.tipoCorte = "Cabelo + Barba";
   }
+  valorCorteCabeloBarba(){
+    this.valorCorte = "R$100";
+  }
+
+  
 
 }

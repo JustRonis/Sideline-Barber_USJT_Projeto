@@ -26,7 +26,7 @@
               <h1 class="card-title pricing-card-title">R$65<small class="text-muted fw-light">,00</small></h1>
               <button type="button" class="w-100 btn btn-lg btn-primary"
                data-toggle="modal" data-target="#compra" 
-               (click)="tipoCorteCabelo()">Comprar
+               (click)="tipoCorteCabelo()" (click)="valorCorteCabelo()">Comprar
               </button>
             </div>
           </div>
@@ -40,7 +40,7 @@
             <div class="card-body">
               <h1 class="card-title pricing-card-title">R$50<small class="text-muted fw-light">,00</small></h1>
               <button type="button" class="w-100 btn btn-lg btn-primary"
-              data-toggle="modal" data-target="#compra" (click)="tipoCorteBarba()">
+              data-toggle="modal" data-target="#compra" (click)="tipoCorteBarba()" (click)="valorCorteBarba()">
                 Comprar</button>
             </div>
           </div>
@@ -54,7 +54,7 @@
             <div class="card-body">
               <h1 class="card-title pricing-card-title">R$100<small class="text-muted fw-light">,00</small></h1>
               <button type="button" class="w-100 btn btn-lg btn-primary"
-              data-toggle="modal" data-target="#compra" (click)="tipoCorteCabeloBarba()">
+              data-toggle="modal" data-target="#compra" (click)="tipoCorteCabeloBarba()" (click)="valorCorteCabeloBarba()">
                 Comprar</button>
             </div>
           </div>
@@ -112,6 +112,7 @@
   </div>
   <app-modal-compra
     [id]="'compra'"
-    [tipoCorte]="tipoCorte">
+    [tipoCorte]="tipoCorte"
+    [valorCorte]="valorCorte">
   </app-modal-compra>
 </body>

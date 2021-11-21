@@ -11,6 +11,7 @@ export class ModalCompraComponent implements OnInit {
 
   @Input() id: any;
   @Input() tipoCorte: any = "";
+  @Input() valorCorte: any = "";
 
   constructor() { }
 
