@@ -1,17 +1,25 @@
 {
-  "name": "node-api-crud",
+  "name": "cadastro_nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "express": "~4.17.1",
-    "mongoose": "~6.0.12",
-    "request": "~2.88.2",
-    "body-parser": "~1.19.0"
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "raw-body": "^2.4.2"
   },
-  "author": "Lucas Matos",
-  "license": "ISC"
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
