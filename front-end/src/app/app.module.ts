@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
@@ -13,6 +14,11 @@ import { ModalLoginComponent } from './modal-login/modal-login.component';
 import { ModalNecessarioComponent } from './modal-necessario/modal-necessario.component';
 import { ModalProfissionalComponent } from './modal-profissional/modal-profissional.component';
 import { ModalRedefinirSenhaComponent } from './modal-redefinir-senha/modal-redefinir-senha.component';
+import { HttpClientModule } from "@angular/common/http";
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -32,6 +38,13 @@ import { ModalRedefinirSenhaComponent } from './modal-redefinir-senha/modal-rede
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    CommonModule,
+    RouterModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    NgxSpinnerModule,
     AppRoutingModule
   ],
   providers: [],
