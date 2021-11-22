@@ -17,7 +17,8 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.13",
-    "raw-body": "^2.4.2"
+    "raw-body": "^2.4.2",
+    "cors": "2.8.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
