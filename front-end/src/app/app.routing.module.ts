@@ -5,7 +5,7 @@ import { CadastroBarbeiroComponent } from './cadastro-barbeiro/cadastro-barbeiro
 import { ContatoComponent } from './contato/contato.component';
 import { CortesComponent } from './cortes/cortes.component';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
+import { MeusAgendamentosComponent } from './meus-agendamentos/meus-agendamentos.component';
 
 const routes: Routes = [
   {
@@ -15,10 +15,6 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
-  },
-  {
-    path: 'login',
-    component: LoginComponent
   },
   {
     path: 'cortes',
@@ -35,6 +31,10 @@ const routes: Routes = [
   {
     path: 'cadastro-barbeiro',
     component: CadastroBarbeiroComponent
+  },
+  {
+    path: 'meus-agendamentos',
+    component: MeusAgendamentosComponent
   }
 ];
 

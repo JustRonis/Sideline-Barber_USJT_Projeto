@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { CortesComponent } from './cortes/cortes.component';
 import { HomeComponent } from './home/home.component';
+import { MeusAgendamentosComponent } from './meus-agendamentos/meus-agendamentos.component';
 import { ModalAtendimentoComponent } from './modal-atendimento/modal-atendimento.component';
 import { ModalCadastroComponent } from './modal-cadastro/modal-cadastro.component';
 import { ModalCompraComponent } from './modal-compra/modal-compra.component';
@@ -20,6 +20,7 @@ import { ModalRedefinirSenhaComponent } from './modal-redefinir-senha/modal-rede
     AppComponent,
     HomeComponent,
     CortesComponent,
+    MeusAgendamentosComponent,
     ModalAtendimentoComponent,
     ModalNecessarioComponent,
     ModalCompraComponent,

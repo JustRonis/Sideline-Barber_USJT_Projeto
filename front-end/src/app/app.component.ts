@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   validarUrl(): boolean {
     let currentUrl = this.router.url;
-    if(currentUrl === "/login"){
+    if(currentUrl === "/adm"){
        return false;
     }
     return true
