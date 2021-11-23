@@ -4,6 +4,7 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require ('cors')
 
 const app = express();
 
@@ -14,6 +15,7 @@ const Agendamento = require("./models/Agendamento");
 
 // Config JSON response
 app.use(express.json());
+app.use(cors())
 
 // Open Route
 app.get("/", (req, res) => {

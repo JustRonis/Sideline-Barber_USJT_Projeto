@@ -14,16 +14,34 @@
             <img src="../assets/img/Logo_preto.png" href="#" class="logo_login" alt="Logo_preto">
           </div>
           <div class="modal-body pl-5 pr-5 pb-5 pt-5">
-            <form class="">               
+            <form class="" [formGroup]="loginForm" (ngSubmit)="onSubmit()">               
               <div class="form-floating mb-3">
                 <label for="floatingInput">Email</label>
-                <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com">             
+                <input type="email" 
+                      class="form-control rounded-4" 
+                      placeholder="name@example.com"
+                      name="email"
+                      placeholder="email"
+                      formControlName="email" 
+                      [ngClass]="{ 'is-invalid': submitted && f.email.errors }">     
+                      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Email é obrigatorio</div>
+                     </div>        
               </div>
               <div class="form-floating mb-3">
                 <label for="floatingPassword">Senha</label>
-                <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Digite a sua senha">                
+                <input type="password"
+                       class="form-control rounded-4" 
+                       placeholder="Digite a sua senha"
+                       name="senha"
+                       placeholder="senha"
+                       formControlName="senha" 
+                       [ngClass]="{ 'is-invalid': submitted && f.senha.errors }">    
+                    <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Senha é obrigatorio</div>
+                     </div>             
               </div>
-              <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Entrar</button>
+              <a class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" (click)="onSubmit()" type="submit">Entrar</a>
               <small class="text-muted">Caso não lembre a senha, clique em </small>
               <a href="#" class="" data-toggle="modal" data-target="#redefinir">Redefinir Senha</a>
               <hr class="my-4">

@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "~13.0.2",
     "@angular/router": "~13.0.2",
     "@ng-bootstrap/ng-bootstrap": "^5.3.1",
+    "ngx-spinner": "^8.1.0",
     "bootstrap": "^4.5.0",
     "bootstrap-icons": "^1.4.0",
     "font-awesome": "4.7.0",
